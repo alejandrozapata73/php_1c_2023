@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>formulario de envio de datos 🙂</h1>
+
+
+    <!-- verbos:
+    GET: ---cuando hacemos una peticion 
+    POST: ----cuando voy a enviar Informacion 
+
+    API (mercadoPago)... -->
+
+    <form action="datos.php" method="get">
+
+        <h2>Loguin</h2>
+
+
+        <label for="">Usuario</label>
+        <input id="nombre" type="text" name="usuario" required>
+
+
+        <label for="">Pass</label>
+        <input  type="text" name="pass" required>
+
+        <br>
+
+
+        <label for="">Nombre</label>
+        <input id="nombre" type="text" name="nombre" placeholder="Luis" value="Gaston" >
+
+
+        <label for="">Apellido</label>
+        <input  type="text" name="apellido" >
+
+        <label for="">TArjeta</label>
+        <input type="password" name="tarjeta" >
+
+        <input type="time" name="horaInicio" >
+        <input type="time" name="horaFin" >
+
+        <h2>Paises</h2>
+
+        <select name="paisesMercosur" id="">
+
+            <option value="Argentina"> Agentina 🚈</option>
+            <option value="Brasil"> Brasil 🚧</option>
+            <option value="Uruguay"> Uruguay 🚈</option>
+            <option value="Chile"> Chile 🚈</option>
+            <option value="Paraguay"> Paraguay 🚈</option>
+
+        </select>
+
+        <input type="password" name="password2">
+
+
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+    
+</body>
+</html>
